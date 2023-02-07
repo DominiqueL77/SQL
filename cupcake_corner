@@ -1,0 +1,38 @@
+/** cupcake corner:
+chocolate (20) (NV) ($5) (M)
+vanilla sprinkles (20) (V) ($7) (M) 
+strawberry sprinkles (30) (V) ($7) (M)
+banana sprinkles (15) (V) ($7) (M)
+cherry (15) (V) ($7) (M)
+blueberry (10) (V) ($7) (M)
+butter pecan  (15) (NV) ($5) (L)
+chocolate chip (20) (NV) ($5) (L)
+confetti sprinkles (20) (V) ($7) (L)
+marble (10) (NV) ($5) (M) 
+orange sprinkles (V) (10) ($7) (L)
+german chocolate (NV) (8) ($5) (M)
+strawberry banana (NV) (12) ($5) (L)
+**/
+CREATE TABLE cupcake_corner
+(id INTEGER PRIMARY KEY,
+flavor TEXT,
+quantity TEXT,
+vegan_nonvegan TEXT,
+price INTEGER,
+size INTEGER);
+
+INSERT INTO cupcake_corner values (1, "chocolate", "20", "NV", "$5", "M");
+INSERT INTO cupcake_corner values (2, "vanilla sprinkles", "20", "V", "$7","M");
+INSERT INTO cupcake_corner values (3, "strawberry sprinkles", "30", "V", "$7","M");
+INSERT INTO cupcake_corner values (4, "banana sprinkles", "15", "V", "$7", "M");
+INSERT INTO cupcake_corner values (5, "cherry", "15", "V", "$7", "M");
+INSERT INTO cupcake_corner values (6, "blueberry", "10", "V", "$7", "M");
+INSERT INTO cupcake_corner values (7, "butter pecan", "15", "NV", "$5", "M");
+INSERT INTO cupcake_corner values (8, "red velvet", "15", "NV", "$5", "M");
+INSERT INTO cupcake_corner values (9, "chocolate chip", "20", "NV", "$5","L");
+INSERT INTO cupcake_corner values (10, "confetti sprinkles", "20", "V", "$7", "L");
+INSERT INTO cupcake_corner values (11, "marble", "10", "NV", "$5", "M");
+INSERT INTO cupcake_corner values (12, "orange sprinkles", "10", "V", "$7", "L");
+INSERT INTO cupcake_corner values (13, "geman chocolate", "8", "NV", "$5", "M");
+INSERT INTO cupcake_corner values (14, "strawberry banana", "12", "NV", "$5", "L");
+INSERT INTO cupcake_corner values (15, "birthday cake", "25", "NV", "$7", "L");
